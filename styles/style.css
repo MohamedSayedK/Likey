@@ -237,6 +237,7 @@ body {
     margin-left: 25%;
     margin-bottom: 50px;
     font-weight: lighter;
+    font-size: 1.1rem;
 }
 
 .sign-in h1{
@@ -278,6 +279,19 @@ body {
     margin-top: 20px;
     border-radius: 50px;
     padding: 8px 20px;
+    background-color: rgb(241, 77, 104);
+    font-family: 'Lobster', cursive;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 40%;
+}
+
+.signIn-button:hover{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 8px 20px;
     background-color: rgb(240, 44, 76);
     font-family: 'Lobster', cursive;
     color: white;
@@ -291,3 +305,22 @@ body {
     margin-top: 30px;
 }
   
+.sign-in .google-login{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #2074fa;
+}
+
+.new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.new a{
+    color: #333;
+    border-bottom: 1px solid rgb(104, 104, 104);
+}
