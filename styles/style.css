@@ -65,6 +65,15 @@ body {
 
   /* ---------- form ---------- */
 
+  form{
+      width: 30%;
+  }
+
+  form input{
+    outline: none;
+    border: none;
+  }
+
   form h3{
       color: rgb(104, 104, 104);
   }
@@ -126,3 +135,46 @@ body {
     color: rgb(104, 104, 104);
     margin-left: 5px;
   }
+
+  .name{
+      margin-bottom: 20px;
+  }
+  .name input{
+      border-bottom: 1px solid rgb(104, 104, 104);
+  }
+
+  .account-info{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .account-info input{
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgb(104, 104, 104);
+  }
+
+
+  .check{
+      display: flex;
+      font-size: 0.6rem;
+  }
+
+  .check p{
+      margin-left: 5px;
+      margin-top: -2px;
+  }
+
+  .createAccount-button{
+      margin-left: 30%;
+      margin-top: 20px;
+      border-radius: 50px;
+      padding: 8px 20px;
+      background-color: rgb(241, 77, 104);
+      font-family: 'Lobster', cursive;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+  }
+
+  
