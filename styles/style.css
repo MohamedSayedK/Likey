@@ -63,7 +63,7 @@ body {
 
   /* --------------------------- */
 
-  /* ---------- form ---------- */
+  /* ---------- login form ---------- */
 
   form{
       width: 30%;
@@ -223,5 +223,48 @@ body {
     font-size: 1.1rem;
 }
 
+/* ------------------------- */
 
+/* ------------- Sign in form ------------- */
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-in h3 {
+    margin-left: 25%;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.sign-in h1{
+    margin-bottom: 40px;
+}
+
+.sign-in .account-info input{
+    margin-bottom: 30px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+
+.sign-in .account-info input::placeholder{
+    font-size: 1.2rem;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot .remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remember-forgot .remember p{
+    margin-left: 3px;
+}
   
