@@ -72,6 +72,7 @@ body {
   form input{
     outline: none;
     border: none;
+    caret-color: rgb(241, 77, 104);
   }
 
   form h3{
@@ -85,6 +86,11 @@ body {
     font-style: italic;
     margin-left: 30%;
     margin-bottom: 10px;
+  }
+
+  form input::placeholder{
+    font-family: 'Lobster', cursive;
+    font-size: 1rem;
   }
 
 
@@ -162,6 +168,11 @@ body {
   .check p{
       margin-left: 5px;
       margin-top: -2px;
+  }
+
+  form a{
+      color: purple;
+      text-decoration: none;
   }
 
   .createAccount-button{
