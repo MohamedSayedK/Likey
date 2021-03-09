@@ -58,6 +58,47 @@ body {
       font-family: 'Lobster', cursive;
       font-style: italic;
       font-size: 2rem;
+      font-weight:lighter ;
   }
 
   /* --------------------------- */
+
+  /* ---------- form ---------- */
+
+  form h3{
+      color: rgb(104, 104, 104);
+  }
+
+  .form-header{
+    font-family: 'Lobster', cursive;
+    color: rgb(104, 104, 104);
+    font-size: 3rem;
+    font-style: italic;
+    margin-left: 30%;
+    margin-bottom: 10px;
+  }
+
+
+  .login-buttons{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .login-methods #google-login{
+      background: #4086F6;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 20px;
+      color: white;
+      cursor: pointer;
+  }
+
+  .login-methods #twitter-login{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(104, 104, 104);
+    margin-left: 5px;
+  }
