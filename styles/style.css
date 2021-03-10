@@ -18,7 +18,6 @@ body {
 
   .login-process{
       height: 100vh;
-      border: 1px solid red;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -67,7 +66,9 @@ body {
 
   form{
       width: 30%;
+      min-width: 30%;
   }
+
 
   form input{
     outline: none;
@@ -98,6 +99,7 @@ body {
   .login-buttons{
       margin-top: 20px;
       margin-bottom: 20px;
+      display: flex;
   }
 
   .separator {
@@ -166,6 +168,8 @@ body {
 
   .name{
       margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
   }
   .name input{
       border-bottom: 1px solid rgb(104, 104, 104);
