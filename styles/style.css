@@ -202,7 +202,6 @@ body {
   }
 
   .createAccount-button{
-      margin-left: 30%;
       margin-top: 20px;
       border-radius: 50px;
       padding: 8px 20px;
@@ -214,8 +213,12 @@ body {
       font-size: 1.1rem;
   }
 
+  .button-container{
+      display: flex;
+      justify-content: center;
+  }
+
   .createAccount-button:hover{
-    margin-left: 30%;
     margin-top: 20px;
     border-radius: 50px;
     padding: 8px 20px;
