@@ -339,3 +339,33 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/*-------------- forgot password page ---------------*/
+
+.account-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-password-text{
+    color: rgb(104, 104, 104);
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.login-process h3{
+    margin-bottom: 30px;
+}
+
+.recover-password-email input{
+    font-size: 1.3rem;
+}
+
+.recover-password-email input::placeholder{
+    font-size: 1.3rem;
+}
+
+.recover-password-email{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(104, 104, 104);
+}
