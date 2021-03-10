@@ -24,6 +24,11 @@ body {
       font-family: 'Roboto', sans-serif;
   }
 
+  .centreing-container{
+    display: flex;
+    justify-content: center;
+}
+
   /* ---------- Likey banner ------------- */
 
   .why-likey{
@@ -86,7 +91,6 @@ body {
     color: rgb(104, 104, 104);
     font-size: 3rem;
     font-style: italic;
-    margin-left: 30%;
     margin-bottom: 10px;
   }
 
@@ -213,11 +217,6 @@ body {
       font-size: 1.1rem;
   }
 
-  .button-container{
-      display: flex;
-      justify-content: center;
-  }
-
   .createAccount-button:hover{
     margin-top: 20px;
     border-radius: 50px;
@@ -241,7 +240,6 @@ body {
 }
 
 .sign-in h3 {
-    margin-left: 25%;
     margin-bottom: 50px;
     font-weight: lighter;
     font-size: 1.1rem;
@@ -292,8 +290,9 @@ body {
     border: none;
     cursor: pointer;
     font-size: 1.1rem;
-    width: 40%;
+    width: 150px;
 }
+
 
 .signIn-button:hover{
     margin-top: 20px;
@@ -305,7 +304,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 1.1rem;
-    width: 40%;
+    width:150px
 }
 
 .sign-in .separator{
@@ -330,4 +329,9 @@ body {
 .new a{
     color: #333;
     border-bottom: 1px solid rgb(104, 104, 104);
+}
+
+.new-google{
+    display: flex;
+    justify-content: center;
 }
