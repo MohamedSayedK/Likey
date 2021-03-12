@@ -374,3 +374,19 @@ body {
     margin-bottom: 20px;
     border-bottom: 1px solid rgb(104, 104, 104);
 }
+
+
+@media screen and (max-width:700px){
+    .why-likey{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    form{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        padding: 20px;
+    }
+}
