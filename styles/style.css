@@ -296,6 +296,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 1.1rem;
+    min-width: 150px;
 }
 
 .form-button-main:hover{
