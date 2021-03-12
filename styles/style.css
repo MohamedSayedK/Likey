@@ -141,6 +141,7 @@ body {
       padding: 5px 20px;
       color: white;
       cursor: pointer;
+      font-size: 15px;
   }
 
   .login-methods #google-login:hover{
@@ -158,9 +159,10 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     color: rgb(104, 104, 104);
     margin-left: 5px;
+    font-size: 20px;
   }
 
   .login-methods #twitter-login:hover{
@@ -168,7 +170,7 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     color: rgb(104, 104, 104);
     margin-left: 5px;
     background-color: rgb(214, 214, 214);
@@ -178,9 +180,11 @@ body {
       margin-bottom: 20px;
       display: flex;
       justify-content: space-between;
+      max-width:100%;
   }
   .name input{
       border-bottom: 1px solid rgb(104, 104, 104);
+      margin-bottom: 20px;
   }
 
   .account-info{
@@ -189,7 +193,7 @@ body {
   }
 
   .account-info input{
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       border-bottom: 1px solid rgb(104, 104, 104);
   }
 
