@@ -422,6 +422,11 @@ body {
       align-items: center;
   }
 
+  .login-info{
+      display: flex;
+      flex-direction: column;
+  }
+
 
 
 /*------------------------navbar -----------------------*/
