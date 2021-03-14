@@ -390,7 +390,7 @@ body {
 
 /*--------------------- pop up -----------------------*/
 
-/* #popup{
+#popup{
     position: fixed;
     top: 40%;
     left: 50%;
@@ -408,13 +408,19 @@ body {
   }
 
   #popup.active{
-    top: 50%;
+    top: 20%;
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
-    width:70%;
+    width:50%;
     z-index: 2;
-  } */
+  }
+
+  .popupheader{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 
 
 
