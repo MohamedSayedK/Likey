@@ -28,7 +28,42 @@ body {
     display: flex;
     justify-content: center;
 }
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.navbar-links{
+    display: flex;
+    height: 100px;
+    position: relative;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+}
+
+nav h1 {
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: red;
+    padding-top: 60px;
+}
 
 
   /* ---------- Likey banner ------------- */
@@ -438,3 +473,11 @@ body {
     width:70%;
     z-index: 2;
   } */
+
+
+  /*--------------------- Main Page -----------------------*/
+
+
+.main-page-main{
+    height: 100vh;
+}
