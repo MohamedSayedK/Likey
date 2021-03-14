@@ -384,12 +384,12 @@ nav a:hover {
 
 .forgot-password-text{
     color: rgb(104, 104, 104);
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     font-style: italic;
 }
 
 .login-process h3{
-    margin-bottom: 30px;
+    margin-bottom: 2rem
 }
 
 .recover-password-email input{
@@ -401,9 +401,11 @@ nav a:hover {
 }
 
 .recover-password-email{
-    margin-bottom: 20px;
+    margin-bottom: 1.6rem;
     border-bottom: 1px solid rgb(104, 104, 104);
 }
+
+/*------------------------------------------*/
 
 
 @media screen and (max-width:700px){
