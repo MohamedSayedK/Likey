@@ -65,6 +65,20 @@ nav a:hover {
     padding-top: 60px;
 }
 
+.login-nav-button{
+    outline: none;
+    margin-top: 40px;
+    border-radius: 50px;
+    padding: 8px 20px;
+    background: -webkit-linear-gradient( left, rgb(248, 126, 85),rgb(255, 251, 0));
+    font-family: 'Lobster', cursive;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    min-width: 90px;
+}
+
 
   /* ---------- Likey banner ------------- */
 
