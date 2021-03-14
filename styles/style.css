@@ -278,18 +278,17 @@ nav a:hover {
 }
 
 .sign-in h3 {
-    margin-bottom: 50px;
     font-weight: lighter;
     font-size: 1.1rem;
 }
 
 .sign-in h1{
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
 }
 
 .sign-in .account-info input{
-    margin-bottom: 30px;
-    height: 40px;
+    margin-bottom: 2rem;
+    height: 3rem;
     font-size: 1.2rem;
 }
 
@@ -320,33 +319,33 @@ nav a:hover {
 
 .form-button-main{
     outline: none;
-    margin-top: 20px;
+    margin-top: 1.6rem;
     border-radius: 50px;
-    padding: 8px 20px;
+    padding: 0.5em 1.6em;
     background-color: rgb(241, 77, 104);
     font-family: 'Lobster', cursive;
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 1.1rem;
-    min-width: 150px;
+    font-size: 1.2rem;
+    min-width: 40%;
 }
 
 .form-button-main:hover{
-    margin-top: 20px;
+    margin-top: 1.6rem;
     border-radius: 50px;
-    padding: 8px 20px;
+    padding: 0.5em 1.6em;
     background-color: rgb(240, 44, 76);
     font-family: 'Lobster', cursive;
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 
 .sign-in .separator{
-    margin-top: 30px;
+    margin-top: 1.8rem;
 }
 
 .sign-in .google-login{
@@ -360,7 +359,7 @@ nav a:hover {
 .new{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 1.6rem;
     font-style: italic;
 }
 
