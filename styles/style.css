@@ -79,6 +79,11 @@ nav a:hover {
     min-width: 90px;
 }
 
+.navbar-login select{
+    outline: none;
+    border: none;
+}
+
 
   /* ---------- Likey banner ------------- */
 
@@ -102,7 +107,7 @@ nav a:hover {
 
   .why-likey ul{
       list-style: none;
-      padding: 20px;
+      padding: 1.7rem;
       font-style: italic;
       color: rgb(104, 104, 104);
       font-size: 0.8rem;
@@ -130,7 +135,6 @@ nav a:hover {
     outline: none;
     border: none;
     caret-color: rgb(241, 77, 104);
-    padding-bottom: 5px;
   }
 
   form h3{
@@ -142,7 +146,6 @@ nav a:hover {
     color: rgb(104, 104, 104);
     font-size: 3rem;
     font-style: italic;
-    margin-bottom: 10px;
   }
 
   form input::placeholder{
@@ -152,8 +155,8 @@ nav a:hover {
 
 
   .login-buttons{
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 1.6rem;
+      margin-bottom: 1.6rem;
       display: flex;
   }
 
@@ -161,7 +164,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.6rem;
   }
 
   .separator::before,
@@ -189,10 +192,10 @@ nav a:hover {
       outline: none;
       border: none;
       border-radius: 5px;
-      padding: 5px 20px;
+      padding: 0.4em 1.5em;
       color: white;
       cursor: pointer;
-      font-size: 15px;
+      font-size: 1rem;
   }
 
   .login-methods #google-login:hover{
@@ -200,7 +203,7 @@ nav a:hover {
     outline: none;
     border: none;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 0.4em 1.5em;
     color: white;
     cursor: pointer;
 }
@@ -210,10 +213,10 @@ nav a:hover {
     border: none;
     outline: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0.5em;
     color: rgb(104, 104, 104);
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 1.2rem;
   }
 
   .login-methods #twitter-login:hover{
@@ -221,21 +224,21 @@ nav a:hover {
     border: none;
     outline: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0.5em;
     color: rgb(104, 104, 104);
     margin-left: 5px;
     background-color: rgb(214, 214, 214);
   }
 
   .name{
-      margin-bottom: 20px;
+      margin-bottom: 1.6rem;
       display: flex;
       justify-content: space-between;
       max-width:100%;
   }
   .name input{
       border-bottom: 1px solid rgb(104, 104, 104);
-      margin-bottom: 20px;
+      margin-bottom: 1.6rem;
   }
 
   .account-info{
@@ -244,7 +247,7 @@ nav a:hover {
   }
 
   .account-info input{
-      margin-bottom: 40px;
+      margin-bottom: 2.5rem;
       border-bottom: 1px solid rgb(104, 104, 104);
   }
 
@@ -263,31 +266,6 @@ nav a:hover {
       color: purple;
       text-decoration: none;
   }
-
-  .createAccount-button{
-      outline: none;
-      margin-top: 20px;
-      border-radius: 50px;
-      padding: 8px 20px;
-      background-color: rgb(241, 77, 104);
-      font-family: 'Lobster', cursive;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 1.1rem;
-  }
-
-  .createAccount-button:hover{
-    margin-top: 20px;
-    border-radius: 50px;
-    padding: 8px 20px;
-    background-color: rgb(240, 44, 76);
-    font-family: 'Lobster', cursive;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 1.1rem;
-}
 
 /* ------------------------- */
 
