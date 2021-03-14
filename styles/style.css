@@ -441,13 +441,23 @@ nav a {
     padding: 15px;
     font-family: 'Roboto', sans-serif;
     padding-top: 2.2rem;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
 }
+
+nav a:hover{
+    background-size: 100% 88%;
+}
+
 
 nav h1 {
     font-family: 'Lobster', cursive;
     font-style: italic;
     font-size: 3rem;
-    background: -webkit-linear-gradient(left,rgb(66,0,128),rgb(0,140,255));
+    background: -webkit-linear-gradient( left, #22f770,#21aff7 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 10px;
@@ -457,16 +467,16 @@ nav h1 {
 
 .login-nav-button{
     outline: none;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 50px;
     padding: 8px 20px;
-    background: -webkit-linear-gradient( left, rgb(66, 0, 128),rgb(0, 140, 255) );
+    background: -webkit-linear-gradient( left, #22f770,#21aff7 );
     font-family: 'Lobster', cursive;
     color: white;
     border: none;
     cursor: pointer;
     font-size: 1rem;
-    min-width: 90px;
+    min-width: 110px;
 }
 
 .navbar-login select{
@@ -483,3 +493,29 @@ nav h1 {
 .main-page-main{
     display: flex;
 }
+
+.main-page-main .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-page-main .content p{
+    font-size: 4rem;
+}
+
+
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+}
+    .underline--magical:hover {
+      background-size: 100% 88%;
+    }
+  
