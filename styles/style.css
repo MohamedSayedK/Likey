@@ -43,7 +43,7 @@ body {
     form{
         position: absolute;
         z-index: 1;
-        width: 100%;
+        min-width: 100%;
         padding: 20px;
     }
 
@@ -104,8 +104,7 @@ body {
   /* ---------- login form ---------- */
 
   form{
-      width: 30%;
-      min-width: 30%;
+      max-width: 30%;
   }
 
 
@@ -472,6 +471,10 @@ nav h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 10px;
+    animation-duration: 4s;
+    animation-name: animationgradienttitle;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
 }
 
 
@@ -488,6 +491,7 @@ nav h1 {
     cursor: pointer;
     font-size: 1rem;
     min-width: 110px;
+    
 }
 
 .navbar-login select{
@@ -516,7 +520,10 @@ nav h1 {
     font-size: 4rem;
 }
 
-
+.content{
+    display: flex;
+    flex-direction: column;
+}
 
 .underline--magical {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -530,3 +537,12 @@ nav h1 {
       background-size: 100% 88%;
     }
   
+
+    @keyframes animationgradienttitle {
+        0% {
+            background-position: 0 230px;
+        }
+        100% {
+            background-position: 230px 0;
+        }
+      }
