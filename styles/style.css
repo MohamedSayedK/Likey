@@ -410,11 +410,11 @@ body {
   }
 
   #popup.active{
-    top: 20%;
+    top: 30%;
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
-    width:50%;
+    width:40%;
     z-index: 2;
   }
 
