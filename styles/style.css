@@ -29,6 +29,10 @@ body {
     justify-content: center;
 }
 
+body#blur.active{
+    filter:blur(20px);
+}
+
 
 
 /*----------------- Media Queries ------------*/
