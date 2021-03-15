@@ -519,6 +519,10 @@ nav h1 {
 
 }
 
+.hero{
+    display: flex;
+}
+
 .main-page-main .content p{
     font-size: 4rem;
 }
@@ -549,3 +553,18 @@ nav h1 {
             background-position: 230px 0;
         }
       }
+
+@media screen and (max-width: 700px){
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content p{
+        font-size: 1rem;
+    }
+}
