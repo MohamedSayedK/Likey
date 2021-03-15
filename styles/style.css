@@ -405,13 +405,13 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
-    width:70%;
+    width:50%;
     z-index: 2;
     user-select: none;
   }
 
   #popup.active{
-    top: 40%;
+    top: 45%;
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
@@ -496,6 +496,37 @@ body {
       cursor: pointer;
       margin: 1.3rem 0;
   }
+
+  .popup-body a{
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      color: #21aff7;
+  }
+
+  .google-popup-login{
+      color: #2074fa;
+      background: none;
+      border: none;
+      outline: none;
+  }
+
+  .popup-login-methods{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .popup-login-methods button{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+
 
 
 /*------------------------navbar -----------------------*/
