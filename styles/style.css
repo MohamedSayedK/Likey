@@ -105,6 +105,7 @@ body {
 
   form{
       max-width: 30%;
+      width: 40%;
   }
 
 
@@ -252,6 +253,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* width: 40%; if page breaks try setting this back */
+
 }
 
 .sign-in h3 {
