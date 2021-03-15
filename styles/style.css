@@ -424,9 +424,44 @@ body {
       align-items: center;
   }
 
+  .popupheader h2{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-size: 3rem;
+    background: -webkit-linear-gradient( left, #22f770,#21aff7 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    animation-duration: 4s;
+    animation-name: animation-gradient-popup;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes animation-gradient-popup {
+    0% {
+        background-position: 0 300px;
+    }
+    100% {
+        background-position: 300px 0;
+    }
+  }
+
   .login-info{
       display: flex;
       flex-direction: column;
+  }
+
+  .popup-exit{
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 10px;
+      outline: none;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 1.1rem;
   }
 
 
@@ -475,11 +510,19 @@ nav h1 {
     -webkit-text-fill-color: transparent;
     padding: 10px;
     animation-duration: 4s;
-    animation-name: animationgradienttitle;
+    animation-name: animation-gradient-nav;
     animation-iteration-count:infinite;
     animation-fill-mode: forwards;
 }
 
+@keyframes animation-gradient-nav {
+    0% {
+        background-position: 0 230px;
+    }
+    100% {
+        background-position: 230px 0;
+    }
+  }
 
 
 .login-nav-button{
@@ -544,15 +587,6 @@ nav h1 {
       background-size: 100% 88%;
     }
   
-
-    @keyframes animationgradienttitle {
-        0% {
-            background-position: 0 230px;
-        }
-        100% {
-            background-position: 230px 0;
-        }
-      }
 
 @media screen and (max-width: 700px){
 
